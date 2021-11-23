@@ -1,0 +1,26 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #dadada;
+  }
+
+li {
+    padding: 25px 20px;
+}
+
+li:hover {
+    background-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3a3a3a;
+}
