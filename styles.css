@@ -1,30 +1,79 @@
-body {
-    font-family: 'Open Sans', sans-serif;
+html {
+    scroll-behavior: smooth;
 }
 
-.topo {
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(228, 228, 228);
+    height: 100%;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.top {
     box-shadow: 0px 1px 3px #3a3a3a7e;
 }
 
-ul {
+nav {
     list-style-type: none;
     margin: 0px;
     display: flex;
     justify-content: center;
-    background-color: #dadada;
+    background-color: #ebebeb;
   }
 
 li {
-    padding: 25px 20px;
-}
-
-li:hover {
-    background-color: #FFFFFF;
+    padding: 25px 40px;
 }
 
 a {
+    color: #383838;
     text-decoration: none;
     font-size: 16px;
     font-weight: 100;
-    color: #3a3a3a;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: rgb(153, 0, 255);
+}
+
+.img-text {
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+}
+
+.gean-foto {
+    width: 150px;
+    border-radius: 15%;
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+
+.gean-foto:hover {
+    filter: grayscale(0%);
+}
+
+.hello {
+    margin-left: 10px;
+    padding-left: 30px;
+}
+
+h1 {
+    font-size: 38px;
+    font-weight: 900;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(rgb(255, 0, 191),rgb(153, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    color: rgb(153, 0, 255);
+    font-size: 24px;
+    padding: 35px 0 15px;
 }
