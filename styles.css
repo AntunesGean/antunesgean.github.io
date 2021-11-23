@@ -1,0 +1,142 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(228, 228, 228);
+    height: 100%;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.top {
+    box-shadow: 0px 1px 3px #3a3a3a7e;
+    background-color: #ebebeb;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+nav li {
+    padding: 15px 20px;
+}
+
+a {
+    color: #383838;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 100;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: rgb(255, 0, 191);
+}
+
+.img-text {
+    padding: 15px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gean-foto {
+    width: 150px;
+    border-radius: 15%;
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+
+.gean-foto:hover {
+    filter: grayscale(0%);
+}
+
+.hello {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 38px;
+    font-weight: 900;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(rgb(255, 0, 191),rgb(153, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.quem {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.quem p {
+    text-align: center;
+}
+
+h2 {
+    color: rgb(153, 0, 255);
+    font-size: 24px;
+    padding: 35px 0 15px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.habilidades {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.lista-habilidades {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.lista-habilidades li {
+    padding: 10px 20px;
+}
+
+.contatos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.flex-contatos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.links-contatos {
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+}
+
+i {
+    font-size: 24px;
+}
