@@ -126,6 +126,8 @@ h2 {
 
 .links-contatos {
     padding: 10px 25px;
+    display: flex;
+    align-items: center;
 }
 
 i {
