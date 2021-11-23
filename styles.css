@@ -11,6 +11,7 @@ body {
 .container {
     width: 60%;
     margin: 0 auto;
+    max-width: 800px;
 }
 
 .top {
@@ -90,6 +91,10 @@ h2 {
     color: rgb(153, 0, 255);
     font-size: 24px;
     padding: 35px 0 15px;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .habilidades {
