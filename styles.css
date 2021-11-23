@@ -45,6 +45,7 @@ a:hover {
     padding: 25px 0;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .gean-foto {
@@ -72,15 +73,54 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
+.quem {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
 h2 {
     color: rgb(153, 0, 255);
     font-size: 24px;
     padding: 35px 0 15px;
 }
 
-.links-contatos {
-    padding: 0 25px 0 0;
+.habilidades {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    padding-bottom: 25px;
+}
+
+.lista-habilidades {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.lista-habilidades li {
+    padding: 10px 20px;
+}
+
+.contatos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.flex-contatos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.links-contatos {
+    padding: 10px 25px;
 }
 
 i {
