@@ -22,6 +22,7 @@ nav {
     margin: 0px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     background-color: #ebebeb;
   }
 
@@ -42,7 +43,7 @@ a:hover {
 }
 
 .img-text {
-    padding: 25px 0;
+    padding: 15px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,7 +62,7 @@ a:hover {
 
 .hello {
     margin-left: 10px;
-    padding-left: 30px;
+    padding: 10px;
 }
 
 h1 {
@@ -79,6 +80,10 @@ h1 {
     flex-direction: column;
     align-items: center;
     padding-bottom: 25px;
+}
+
+.quem p {
+    text-align: center;
 }
 
 h2 {
