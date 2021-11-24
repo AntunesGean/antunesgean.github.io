@@ -52,17 +52,11 @@ a:hover {
     justify-content: center;
 }
 
-/* .crop-img {
-    width: 150px;
-    height: 150px;
-    visibility: visible;
-} */
-
 .gean-foto {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    object-position: 0 60%;
+    object-position: 0 55%;
     border-radius: 50%;
     filter: grayscale(100%);
     transition: 0.3s;
